@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D01C1A1FD5218F00ABB906 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D01C191FD5218F00ABB906 /* AppDelegate.m */; };
+		06D01C1D1FD5218F00ABB906 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D01C1C1FD5218F00ABB906 /* ViewController.m */; };
+		06D01C201FD5218F00ABB906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D01C1E1FD5218F00ABB906 /* Main.storyboard */; };
+		06D01C221FD5218F00ABB906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D01C211FD5218F00ABB906 /* Assets.xcassets */; };
+		06D01C251FD5218F00ABB906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D01C231FD5218F00ABB906 /* LaunchScreen.storyboard */; };
+		06D01C281FD5218F00ABB906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D01C271FD5218F00ABB906 /* main.m */; };
+		06D01C321FD5218F00ABB906 /* JakImagePopViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D01C311FD5218F00ABB906 /* JakImagePopViewExampleTests.m */; };
+		06D01C3D1FD5218F00ABB906 /* JakImagePopViewExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D01C3C1FD5218F00ABB906 /* JakImagePopViewExampleUITests.m */; };
+		06D01C4D1FD521E500ABB906 /* JakImagePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D01C4C1FD521E500ABB906 /* JakImagePopView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06D01C2E1FD5218F00ABB906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06D01C0D1FD5218F00ABB906 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06D01C141FD5218F00ABB906;
+			remoteInfo = JakImagePopViewExample;
+		};
+		06D01C391FD5218F00ABB906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06D01C0D1FD5218F00ABB906 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06D01C141FD5218F00ABB906;
+			remoteInfo = JakImagePopViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06D01C151FD5218F00ABB906 /* JakImagePopViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JakImagePopViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D01C181FD5218F00ABB906 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06D01C191FD5218F00ABB906 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06D01C1B1FD5218F00ABB906 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06D01C1C1FD5218F00ABB906 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06D01C1F1FD5218F00ABB906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06D01C211FD5218F00ABB906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06D01C241FD5218F00ABB906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06D01C261FD5218F00ABB906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06D01C271FD5218F00ABB906 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06D01C2D1FD5218F00ABB906 /* JakImagePopViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JakImagePopViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D01C311FD5218F00ABB906 /* JakImagePopViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JakImagePopViewExampleTests.m; sourceTree = "<group>"; };
+		06D01C331FD5218F00ABB906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06D01C381FD5218F00ABB906 /* JakImagePopViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JakImagePopViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D01C3C1FD5218F00ABB906 /* JakImagePopViewExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JakImagePopViewExampleUITests.m; sourceTree = "<group>"; };
+		06D01C3E1FD5218F00ABB906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06D01C4B1FD521E500ABB906 /* JakImagePopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JakImagePopView.h; sourceTree = "<group>"; };
+		06D01C4C1FD521E500ABB906 /* JakImagePopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JakImagePopView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06D01C121FD5218F00ABB906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D01C2A1FD5218F00ABB906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D01C351FD5218F00ABB906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D01C0C1FD5218F00ABB906 = {
+			isa = PBXGroup;
+			children = (
+				06D01C171FD5218F00ABB906 /* JakImagePopViewExample */,
+				06D01C301FD5218F00ABB906 /* JakImagePopViewExampleTests */,
+				06D01C3B1FD5218F00ABB906 /* JakImagePopViewExampleUITests */,
+				06D01C161FD5218F00ABB906 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06D01C161FD5218F00ABB906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06D01C151FD5218F00ABB906 /* JakImagePopViewExample.app */,
+				06D01C2D1FD5218F00ABB906 /* JakImagePopViewExampleTests.xctest */,
+				06D01C381FD5218F00ABB906 /* JakImagePopViewExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06D01C171FD5218F00ABB906 /* JakImagePopViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				06D01C4A1FD521E500ABB906 /* JakImagePopView */,
+				06D01C181FD5218F00ABB906 /* AppDelegate.h */,
+				06D01C191FD5218F00ABB906 /* AppDelegate.m */,
+				06D01C1B1FD5218F00ABB906 /* ViewController.h */,
+				06D01C1C1FD5218F00ABB906 /* ViewController.m */,
+				06D01C1E1FD5218F00ABB906 /* Main.storyboard */,
+				06D01C211FD5218F00ABB906 /* Assets.xcassets */,
+				06D01C231FD5218F00ABB906 /* LaunchScreen.storyboard */,
+				06D01C261FD5218F00ABB906 /* Info.plist */,
+				06D01C271FD5218F00ABB906 /* main.m */,
+			);
+			path = JakImagePopViewExample;
+			sourceTree = "<group>";
+		};
+		06D01C301FD5218F00ABB906 /* JakImagePopViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				06D01C311FD5218F00ABB906 /* JakImagePopViewExampleTests.m */,
+				06D01C331FD5218F00ABB906 /* Info.plist */,
+			);
+			path = JakImagePopViewExampleTests;
+			sourceTree = "<group>";
+		};
+		06D01C3B1FD5218F00ABB906 /* JakImagePopViewExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06D01C3C1FD5218F00ABB906 /* JakImagePopViewExampleUITests.m */,
+				06D01C3E1FD5218F00ABB906 /* Info.plist */,
+			);
+			path = JakImagePopViewExampleUITests;
+			sourceTree = "<group>";
+		};
+		06D01C4A1FD521E500ABB906 /* JakImagePopView */ = {
+			isa = PBXGroup;
+			children = (
+				06D01C4B1FD521E500ABB906 /* JakImagePopView.h */,
+				06D01C4C1FD521E500ABB906 /* JakImagePopView.m */,
+			);
+			path = JakImagePopView;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06D01C141FD5218F00ABB906 /* JakImagePopViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D01C411FD5218F00ABB906 /* Build configuration list for PBXNativeTarget "JakImagePopViewExample" */;
+			buildPhases = (
+				06D01C111FD5218F00ABB906 /* Sources */,
+				06D01C121FD5218F00ABB906 /* Frameworks */,
+				06D01C131FD5218F00ABB906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JakImagePopViewExample;
+			productName = JakImagePopViewExample;
+			productReference = 06D01C151FD5218F00ABB906 /* JakImagePopViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06D01C2C1FD5218F00ABB906 /* JakImagePopViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D01C441FD5218F00ABB906 /* Build configuration list for PBXNativeTarget "JakImagePopViewExampleTests" */;
+			buildPhases = (
+				06D01C291FD5218F00ABB906 /* Sources */,
+				06D01C2A1FD5218F00ABB906 /* Frameworks */,
+				06D01C2B1FD5218F00ABB906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06D01C2F1FD5218F00ABB906 /* PBXTargetDependency */,
+			);
+			name = JakImagePopViewExampleTests;
+			productName = JakImagePopViewExampleTests;
+			productReference = 06D01C2D1FD5218F00ABB906 /* JakImagePopViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06D01C371FD5218F00ABB906 /* JakImagePopViewExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D01C471FD5218F00ABB906 /* Build configuration list for PBXNativeTarget "JakImagePopViewExampleUITests" */;
+			buildPhases = (
+				06D01C341FD5218F00ABB906 /* Sources */,
+				06D01C351FD5218F00ABB906 /* Frameworks */,
+				06D01C361FD5218F00ABB906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06D01C3A1FD5218F00ABB906 /* PBXTargetDependency */,
+			);
+			name = JakImagePopViewExampleUITests;
+			productName = JakImagePopViewExampleUITests;
+			productReference = 06D01C381FD5218F00ABB906 /* JakImagePopViewExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06D01C0D1FD5218F00ABB906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Jak;
+				TargetAttributes = {
+					06D01C141FD5218F00ABB906 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					06D01C2C1FD5218F00ABB906 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06D01C141FD5218F00ABB906;
+					};
+					06D01C371FD5218F00ABB906 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06D01C141FD5218F00ABB906;
+					};
+				};
+			};
+			buildConfigurationList = 06D01C101FD5218F00ABB906 /* Build configuration list for PBXProject "JakImagePopViewExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06D01C0C1FD5218F00ABB906;
+			productRefGroup = 06D01C161FD5218F00ABB906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06D01C141FD5218F00ABB906 /* JakImagePopViewExample */,
+				06D01C2C1FD5218F00ABB906 /* JakImagePopViewExampleTests */,
+				06D01C371FD5218F00ABB906 /* JakImagePopViewExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06D01C131FD5218F00ABB906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D01C251FD5218F00ABB906 /* LaunchScreen.storyboard in Resources */,
+				06D01C221FD5218F00ABB906 /* Assets.xcassets in Resources */,
+				06D01C201FD5218F00ABB906 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D01C2B1FD5218F00ABB906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D01C361FD5218F00ABB906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06D01C111FD5218F00ABB906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D01C1D1FD5218F00ABB906 /* ViewController.m in Sources */,
+				06D01C281FD5218F00ABB906 /* main.m in Sources */,
+				06D01C1A1FD5218F00ABB906 /* AppDelegate.m in Sources */,
+				06D01C4D1FD521E500ABB906 /* JakImagePopView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D01C291FD5218F00ABB906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D01C321FD5218F00ABB906 /* JakImagePopViewExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D01C341FD5218F00ABB906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D01C3D1FD5218F00ABB906 /* JakImagePopViewExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06D01C2F1FD5218F00ABB906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06D01C141FD5218F00ABB906 /* JakImagePopViewExample */;
+			targetProxy = 06D01C2E1FD5218F00ABB906 /* PBXContainerItemProxy */;
+		};
+		06D01C3A1FD5218F00ABB906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06D01C141FD5218F00ABB906 /* JakImagePopViewExample */;
+			targetProxy = 06D01C391FD5218F00ABB906 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06D01C1E1FD5218F00ABB906 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06D01C1F1FD5218F00ABB906 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06D01C231FD5218F00ABB906 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06D01C241FD5218F00ABB906 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06D01C3F1FD5218F00ABB906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06D01C401FD5218F00ABB906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06D01C421FD5218F00ABB906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGY42CRFWE;
+				INFOPLIST_FILE = JakImagePopViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyh.JakImagePopViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06D01C431FD5218F00ABB906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGY42CRFWE;
+				INFOPLIST_FILE = JakImagePopViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyh.JakImagePopViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06D01C451FD5218F00ABB906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGY42CRFWE;
+				INFOPLIST_FILE = JakImagePopViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyh.JakImagePopViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JakImagePopViewExample.app/JakImagePopViewExample";
+			};
+			name = Debug;
+		};
+		06D01C461FD5218F00ABB906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGY42CRFWE;
+				INFOPLIST_FILE = JakImagePopViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyh.JakImagePopViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JakImagePopViewExample.app/JakImagePopViewExample";
+			};
+			name = Release;
+		};
+		06D01C481FD5218F00ABB906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGY42CRFWE;
+				INFOPLIST_FILE = JakImagePopViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyh.JakImagePopViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JakImagePopViewExample;
+			};
+			name = Debug;
+		};
+		06D01C491FD5218F00ABB906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGY42CRFWE;
+				INFOPLIST_FILE = JakImagePopViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyh.JakImagePopViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JakImagePopViewExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06D01C101FD5218F00ABB906 /* Build configuration list for PBXProject "JakImagePopViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D01C3F1FD5218F00ABB906 /* Debug */,
+				06D01C401FD5218F00ABB906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06D01C411FD5218F00ABB906 /* Build configuration list for PBXNativeTarget "JakImagePopViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D01C421FD5218F00ABB906 /* Debug */,
+				06D01C431FD5218F00ABB906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06D01C441FD5218F00ABB906 /* Build configuration list for PBXNativeTarget "JakImagePopViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D01C451FD5218F00ABB906 /* Debug */,
+				06D01C461FD5218F00ABB906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06D01C471FD5218F00ABB906 /* Build configuration list for PBXNativeTarget "JakImagePopViewExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D01C481FD5218F00ABB906 /* Debug */,
+				06D01C491FD5218F00ABB906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06D01C0D1FD5218F00ABB906 /* Project object */;
+}
