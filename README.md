@@ -23,12 +23,12 @@
 4.初始化:
 
 ```
-    JakImagePopView *jakImagePopView = [[JakImagePopView alloc]initWithParentView:self.view];
-    jakImagePopView.delegate = self;
+ JakImagePopView *jakImagePopView = [[JakImagePopView alloc]initWithParentView:self.view];
+ jakImagePopView.delegate = self;
 ```
 
 5.设置弹框的标题文字和需要展示的图片即可
 
 ```
-	[jakImagePopView showWithTitle:@"弹出来看看" Image:[UIImage imageNamed:@"test"]];
+ [jakImagePopView showWithTitle:@"弹出来看看" Image:[UIImage imageNamed:@"test"]];
 ```
