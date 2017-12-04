@@ -11,9 +11,14 @@
 
 @protocol JakImagePopViewDelegate
 
+//确定按钮的实现方法
 -(void)OKBtnClicked;
 
+
+//取消按钮的实现方法
 -(void)CancleBtnClicked;
+
+
 
 @end
 
